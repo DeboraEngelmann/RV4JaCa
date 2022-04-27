@@ -14,8 +14,8 @@ mas rv4JaCa {
     agent maria:maria.asl
 
     agent monitor:monitor.asl {
-           agentArchClass: comm.SnifferCentralised    // driver for HSQLDB, // URL connection, // user, // password
-           beliefBaseClass: jason.bb.JDBCPersistentBB("org.hsqldb.jdbcDriver","jdbc:hsqldb:log","sa","","[msgSent(7,log)]")
+           ag-arch: comm.SnifferCentralised    // driver for HSQLDB, // URL connection, // user, // password
+           ag-bb-class: jason.bb.JDBCPersistentBB("org.hsqldb.jdbcDriver","jdbc:hsqldb:file:sniff","sa","","[msgSent(7,log)]")
 	}
 
 }
