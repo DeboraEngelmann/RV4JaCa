@@ -2,18 +2,21 @@
 
 package rv4JaCa;
 
+import java.util.logging.Level;
+
 import com.google.gson.Gson;
 
 import cartago.*;
 import jason.asSemantics.Message;
 
 public class RV4JaCaArtifact extends Artifact implements IMonitor{
-
+	 RV4JaCaLog log = new RV4JaCaLog("rv4JaCaLog.txt");
 	 private Gson gson = new Gson();
 	 
 	void init() {
 		System.out.println("[RV4JaCa] Artifact enabled");
 		SnifferCentralised.setListener(this);
+		log.logger.setLevel(Level.INFO);
 	}
 	
 	
@@ -21,7 +24,7 @@ public class RV4JaCaArtifact extends Artifact implements IMonitor{
 	public void propagateToMonitor(Message m) {
 		String res = messageToJson(m); 
 		System.out.println(res);
-		
+		log.logger.info(res);
 	}
 	
 	String messageToJson(Message m) {

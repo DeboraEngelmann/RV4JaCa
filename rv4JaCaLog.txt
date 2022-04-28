@@ -1,0 +1,80 @@
+Apr 28, 2022 11:39:54 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid1","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(1)"}
+Apr 28, 2022 11:39:54 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid2","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:55 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid3","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(2)"}
+Apr 28, 2022 11:39:55 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid4","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:55 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid5","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(3)"}
+Apr 28, 2022 11:39:55 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid6","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:56 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid7","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(4)"}
+Apr 28, 2022 11:39:56 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid8","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:56 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid9","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(5)"}
+Apr 28, 2022 11:39:56 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid10","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:57 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid11","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(6)"}
+Apr 28, 2022 11:39:57 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid12","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:58 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid13","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(7)"}
+Apr 28, 2022 11:39:58 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid14","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:58 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid15","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(8)"}
+Apr 28, 2022 11:39:58 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid16","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:59 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid17","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(9)"}
+Apr 28, 2022 11:39:59 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid18","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:39:59 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid19","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(10)"}
+Apr 28, 2022 11:39:59 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid20","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:32 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid1","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(1)"}
+Apr 28, 2022 11:41:32 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid2","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:33 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid3","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(2)"}
+Apr 28, 2022 11:41:33 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid4","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:34 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid5","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(3)"}
+Apr 28, 2022 11:41:34 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid6","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:34 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid7","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(4)"}
+Apr 28, 2022 11:41:34 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid8","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:35 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid9","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(5)"}
+Apr 28, 2022 11:41:35 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid10","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:35 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid11","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(6)"}
+Apr 28, 2022 11:41:35 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid12","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:36 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid13","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(7)"}
+Apr 28, 2022 11:41:36 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid14","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:36 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid15","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(8)"}
+Apr 28, 2022 11:41:36 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid16","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:37 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid17","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(9)"}
+Apr 28, 2022 11:41:37 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid18","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
+Apr 28, 2022 11:41:37 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid19","isReply":"nirt","performative":"tell","sender":"bob","receiver":"maria","content":"vl(10)"}
+Apr 28, 2022 11:41:37 PM rv4JaCa.RV4JaCaArtifact propagateToMonitor
+INFO: {"msgId":"mid20","isReply":"nirt","performative":"achieve","sender":"bob","receiver":"maria","content":"goto(10,2)"}
