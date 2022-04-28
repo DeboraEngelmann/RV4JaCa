@@ -20,7 +20,7 @@ mas rv4JaCa {
 	}
 	
 	workspace wp{
-        artifact rv4jaca:rv4JaCa.RV4JaCa
+        artifact rv4jaca:rv4JaCa.RV4JaCaArtifact
     }
 
 }

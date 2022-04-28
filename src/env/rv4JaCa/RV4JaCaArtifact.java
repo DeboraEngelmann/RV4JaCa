@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 import cartago.*;
 import jason.asSemantics.Message;
 
-public class RV4JaCa extends Artifact implements IMonitor{
+public class RV4JaCaArtifact extends Artifact implements IMonitor{
 
 	 private Gson gson = new Gson();
 	 
