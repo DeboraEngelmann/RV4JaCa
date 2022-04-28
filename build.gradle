@@ -27,6 +27,7 @@ repositories {
 dependencies {
 	compile group: 'org.jacamo' , name: 'jacamo'   , version: '0.9-SNAPSHOT'  , changing: true , transitive: true
 	compile files('lib/hsqldb.jar')
+	compile 'com.google.code.gson:gson:2.8.5'
 }
 
 sourceSets {

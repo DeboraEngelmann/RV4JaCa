@@ -1,6 +1,6 @@
 !start(1).
 
-+!start(X) : true
++!start(X) : X <= 10
    <- .println("Sending tell vl(10)");
       .send(maria, tell, vl(X));
 
@@ -9,3 +9,4 @@
 
       .wait(500);
       !start(X+1).
++!start(X).

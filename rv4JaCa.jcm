@@ -14,9 +14,14 @@ mas rv4JaCa {
     agent maria:maria.asl
 
     agent monitor:monitor.asl {
-           ag-arch: comm.SnifferCentralised    // driver for HSQLDB, // URL connection, // user, // password
-           ag-bb-class: jason.bb.JDBCPersistentBB("org.hsqldb.jdbcDriver","jdbc:hsqldb:file:sniff","sa","","[msgSent(7,log)]")
+           ag-arch: rv4JaCa.SnifferCentralised    // driver for HSQLDB, // URL connection, // user, // password
+//           ag-bb-class: jason.bb.JDBCPersistentBB("org.hsqldb.jdbcDriver","jdbc:hsqldb:file:sniff","sa","","[msgSent(7,log)]")
+		focus: rv4jaca
 	}
+	
+	workspace wp{
+        artifact rv4jaca:rv4JaCa.RV4JaCa
+    }
 
 }
 

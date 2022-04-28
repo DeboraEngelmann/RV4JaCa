@@ -1,4 +1,4 @@
-package comm;
+package rv4JaCa;
 
 import jason.RevisionFailedException;
 import jason.architecture.AgArch;
@@ -11,12 +11,9 @@ import jason.asSyntax.Structure;
 import jason.infra.centralised.CentralisedAgArch;
 import jason.infra.centralised.MsgListener;
 import jason.infra.centralised.RunCentralisedMAS;
-//import jason.infra.local.*; //if using JaCaMo 1.1
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-
-import rv4JaCa.IMonitor;
 /**
  * Customisation of an agent architecture to sniff the MAS with
  * Centralised infrastructure.
@@ -35,8 +32,6 @@ public class SnifferCentralised extends AgArch implements MsgListener {
         if (RunCentralisedMAS.getRunner() != null) {// is it the case of centralised platform being used
             CentralisedAgArch.addMsgListener(this);
         }
-//        if (RunLocalMAS.getRunner() != null) // is it the case of Local platform being used (JaCaMo 1.1)
-//            LocalAgArch.addMsgListener(this);
     }
 
     // method called-back when some message is exchanged
