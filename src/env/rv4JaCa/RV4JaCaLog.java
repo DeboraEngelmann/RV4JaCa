@@ -1,38 +1,39 @@
 package rv4JaCa;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
+import java.io.PrintWriter;
 
 public class RV4JaCaLog {
-	public Logger logger;
-
-	FileHandler fh;
+	
+	PrintWriter pw;
+	FileWriter fw;
+	File file;
 
 	public RV4JaCaLog(String fileName) {
 
-		File f = new File(fileName);
-		if (!f.exists()) {
+		file = new File("log/"+fileName);
+		if (!file.exists()) {
 			try {
-				f.createNewFile();
+				file.createNewFile();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-
+	}
+	
+	public void add(String message) {
 		try {
-			fh = new FileHandler(fileName, true);
-		} catch (SecurityException | IOException e) {
+			fw = new FileWriter(file, true);
+			pw = new PrintWriter(fw);
+			pw.println(message);
+			pw.close();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		logger = Logger.getLogger("test");
-		logger.addHandler(fh);
-		SimpleFormatter formatter = new SimpleFormatter();
-		fh.setFormatter(formatter);
 	}
 
 }

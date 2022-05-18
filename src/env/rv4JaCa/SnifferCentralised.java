@@ -40,7 +40,6 @@ public class SnifferCentralised extends AgArch implements MsgListener {
 
         // add a belief in the agent mind
         // format: msgSent(time(YY,MM,DD,HH,MM,SS),id,irt,ilf,sender,receiver,content)
-        System.out.println("msgSent called");
         rv4jaca.propagateToMonitor(m);
         Calendar now = new GregorianCalendar();
         Structure p = ASSyntax.createStructure("time",

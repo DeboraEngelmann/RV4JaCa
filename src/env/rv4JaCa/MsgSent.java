@@ -1,6 +1,7 @@
 package rv4JaCa;
 
 import java.util.Date;
+import java.util.HashMap;
 
 public class MsgSent {
 
@@ -10,7 +11,7 @@ public class MsgSent {
 	private String performative;
 	private String sender;
 	private String receiver;
-	private String content;
+	private HashMap<String, Object> content;
 	
 	public Date getTime() {
 		return time;
@@ -48,10 +49,10 @@ public class MsgSent {
 	public void setReceiver(String receiver) {
 		this.receiver = receiver;
 	}
-	public String getContent() {
+	public HashMap<String, Object> getContent() {
 		return content;
 	}
-	public void setContent(String content) {
+	public void setContent(HashMap<String, Object> content) {
 		this.content = content;
 	}
 }
