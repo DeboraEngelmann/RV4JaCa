@@ -1,0 +1,18 @@
+# Eclipse files
+bin
+build
+
+# Vscode files
+/.vscode/
+
+# Gradle
+.gradle
+
+
+# jacamo related
+*.log
+.stop___MAS
+*~
+
+# OS files
+*.DS_Store

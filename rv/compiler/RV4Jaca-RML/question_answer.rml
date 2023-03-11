@@ -1,0 +1,12 @@
+question(ag1, ag2) matches {performative:'question',sender:ag1,receiver:ag2};
+answer(ag1, ag2) matches {performative:'assert',sender:ag1,receiver:ag2};
+msg_between(ag1, ag2) matches {sender:ag1, receiver:ag2} | {sender:ag2, receiver:ag1};
+not_msg_between(ag1, ag2) not matches msg_between(ag1, ag2);
+any_answer matches {performative:'assert'};
+monitor_msg matches {sender:'monitor'} | {receiver:'monitor'};
+msg_of_interest matches question(_,_) | answer(_, _);
+
+Main = (msg_of_interest >> ((Question) | (monitor_msg*)));
+Question = {let ag1, ag2; (question(ag1, ag2) (msg_between(ag1, ag2) >> Answer<ag1, ag2>)) /\ (not_msg_between(ag1, ag2) >> Question?)};
+Answer<ag1, ag2> = answer(ag2, ag1) (MsgExchange<ag1,ag2> \/ MsgExchange<ag2, ag1>)*;
+MsgExchange<ag1, ag2> = question(ag1, ag2) answer(ag2, ag1);
